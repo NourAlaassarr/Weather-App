@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 15px;
+}
+.textlogo{
+    font-size: 16px;
+}
+.navbar{
+    background-color: #1e202b;
+    padding: 15px 20px;
+    font-size: 10px;
+}
+.taglinetext{
+    font-size: 9px;
+}
+.imgcontainer{
+    width: 35%;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 0px 8px;
+    margin: 0px 5px;
+    transition-property: all;
+    transition-duration: 0.1s ;
+}
+
+.btn:hover {
+    color: #0d6efd;
+    border: 1px solid #0d6efd;
+}
+
+.btn a:hover {
+    color: inherit;
+}
