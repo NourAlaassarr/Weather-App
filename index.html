@@ -13,7 +13,6 @@
                 <div class="imgcontainer ">
                     <img src="./img/logo@2x.png" class="w-100" alt="logo">
                 </div>
-               
                 <div class="tagline ">
                     <a class="navbar-brand text-white textlogo fw-bolder" href="#"> Weather</a>
                     <h6 class="text-white taglinetext  "> tagline goes here</h6>
@@ -21,7 +20,6 @@
                 
             </div>
             
-
             <div class="Linkss">
                 <ul class="navbar-nav">
                     <li class="nav-item m-2 ">
@@ -54,11 +52,64 @@
             
         </div>
       </nav>
+
+
+    <!-- Weather Api -->
+      <section class="Weather">
      <div class="conatiner">
-        <div class="Search">
-            <img src="./img/banner.png">
+        <div class="row d-flex justify-content-center">
+            <div class="Search col-12">
+        
+            </div>
+            <div id="ForcastCurrent" class="ForcastCurrent col-md-3">
+                <div class="dayDate d-flex justify-content-between aligni p-1 ">
+                    <div class="day">
+                        <p id="day"></p>
+                    </div>
+                    <div class="Dateandnumber d-flex " id="Dateandnumber"style="gap: 10px;">
+                        <div class="number">
+                            <p id="number"></p>
+                        </div>
+                        <div class="Date  m-l-1 ">
+                            <p id="Date"></p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="location p-3">
+                    <h3 id="country"></h3>
+                </div>
+                <div class="degree p-3">
+                    <h4 class=" text-white CelciusData" id="degree"></h4>
+                </div>
+                <div class="icon" >
+                    <img id="Todays-icon" src="" alt="">
+
+                </div>
+                <div class="WeatherType p-3" id="WeatherType"></div>
+                <div class="ForcastDetails d-flex justify-content-evenly ">
+                    <div class="rain d-flex" >
+                        <img src="./img/icon-umberella.png" class="w-75 p-2" alt="">
+                        <p class="p-2" id="rain">ww</p>
+                    </div>
+                    <div class="wind d-flex" >
+                        <img src="./img/icon-wind.png"class="w-75 p-2" alt="">
+                        <p class="p-2" id="wind">ss</p>
+                    </div>
+                    <div class="WNW d-flex " >
+                        <img src="./img/icon-compass.png"class="w-75 p-2 " alt="">
+                        <p class="p-2" id="WNW">ww</p>
+                    </div>
+                </div> 
+            </div>
+            </div>
+            
+                    
+
+            </div>
         </div>
-    </div>
+    
+</section>
     <script src="/Js/main.js"></script>
 </body>
 </html>
