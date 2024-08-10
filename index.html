@@ -55,14 +55,13 @@
 
 
     <!-- Weather Api -->
-      <section class="Weather">
-     <div class="conatiner">
+    <section class="Weather">
+    <div class="container" >
         <div class="row d-flex justify-content-center">
             <div class="Search col-12">
-        
             </div>
-            <div id="ForcastCurrent" class="ForcastCurrent col-md-3">
-                <div class="dayDate d-flex justify-content-between aligni p-1 ">
+            <div id="ForcastCurrent" class="ForcastCurrent col-md-4">
+                <div class="dayDate d-flex justify-content-between p-1">
                     <div class="day">
                         <p id="day"></p>
                     </div>
@@ -70,46 +69,120 @@
                         <div class="number">
                             <p id="number"></p>
                         </div>
-                        <div class="Date  m-l-1 ">
+                        <div class="Date">
                             <p id="Date"></p>
                         </div>
                     </div>
                     
                 </div>
-                <div class="location p-3">
+                <div class="location p-2">
                     <h3 id="country"></h3>
                 </div>
-                <div class="degree p-3">
+                <div class="degree p-2">
                     <h4 class=" text-white CelciusData" id="degree"></h4>
                 </div>
                 <div class="icon" >
                     <img id="Todays-icon" src="" alt="">
 
                 </div>
-                <div class="WeatherType p-3" id="WeatherType"></div>
+                <div class="WeatherType p-2" id="WeatherType"></div>
                 <div class="ForcastDetails d-flex justify-content-evenly ">
-                    <div class="rain d-flex" >
+                    <span class="rain d-flex" >
                         <img src="./img/icon-umberella.png" class="w-75 p-2" alt="">
-                        <p class="p-2" id="rain">ww</p>
-                    </div>
-                    <div class="wind d-flex" >
+                        <span class="p-2" id="rain">ww</span>
+                    </span>
+                    <span class="wind d-flex" >
                         <img src="./img/icon-wind.png"class="w-75 p-2" alt="">
-                        <p class="p-2" id="wind">ss</p>
-                    </div>
-                    <div class="WNW d-flex " >
+                        <span class="p-2" id="wind">ss</span>
+                    </span>
+                    <span class="WNW d-flex " >
                         <img src="./img/icon-compass.png"class="w-75 p-2 " alt="">
-                        <p class="p-2" id="WNW">ww</p>
-                    </div>
+                        <span class="p-2" id="WNW">ww</span>
+                    </span>
                 </div> 
             </div>
+            <!-- NextDays -->
+            <div  class="NextDays col-md-4">
+                <div class="next-day-header p-1">
+                    <div class="text-center">
+                        <p class="nextDay">Sunday</p>
+                    </div>
+                    </div>
+                    <div class="nextdaydetails d-block text-center">
+                        <div >
+                            <img src="" alt="" class="day-Icon">
+                        </div>
+                        <div class="text-white">
+                            <p class="nextdaydegree">40.5oC</p>
+                        </div>
+                        <div>
+                            <p class="degreeLat">26oc</p>
+                        </div>
+                        <div>
+                            <p class="NextDayconditiontext">Sunny</p>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div id="Nextdays" class="NextDays col-md-4">
+                    <div class="dayDate p-1">
+                        <div class="text-center">
+                            <p class="nextDay">Sunday</p>
+                        </div>
+                        </div>
+                        <div class="nextdaydetails d-block text-center">
+                            <div>
+                                <img src="" alt="" class="day-Icon">
+                            </div>
+                            <div class="text-white ">
+                                <p class="nextdaydegree">40.5oC</p>
+                            </div>
+                            <div>
+                                <p class="degreeLat">26oc</p>
+                            </div>
+                            <div>
+                                <p class="NextDayconditiontext">Sunny</p>
+                            </div>
+    
+                        </div>
+                        
+                    </div>
+
             </div>
-            
                     
 
             </div>
-        </div>
     
 </section>
-    <script src="/Js/main.js"></script>
+<footer class="fottercontainer">
+<div class="container m-4">
+    <div class="row d-flex justify-content-center p-3 text-center">
+
+        <div class="col-md-6 ">
+            <form action="#" class="Subscribe position-relative">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <button type="submit" class="btn btn-primary subscribebtn" id="Btn">Subscribe</button>
+            </form>
+            
+            <span class="copyright">© Copyright 2024 Company name. Designed by NourAlaassar. All rights reserved</span>
+        </div>
+        <div class=" Social-Icons  col-md-4  d-flex justify-content-end">
+        
+                <span class="p-3"> <i class="fa-brands fa-facebook"></i></span>
+                <span class="p-3"> <i class="fa-brands fa-github"></i></span>
+                <span class="p-3"> <i class="fa-brands fa-google"></i></span>
+                <span class="p-3"> <i class="fa-brands fa-linkedin"></i></span>
+            </div>
+
+                
+            
+    </div>
+</div>
+
+
+</footer>
+
+<script src="/Js/main.js"></script>
 </body>
 </html>

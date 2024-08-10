@@ -5,6 +5,8 @@
 body{
     font-size: 15px;
     background-color: #1e202b;
+    margin: 0px;
+    padding: 0px;
 }
 .textlogo{
     font-size: 16px;
@@ -47,7 +49,8 @@ body{
 .Weather{
     background-image: url("../img/banner.png");
     background-repeat: no-repeat;
-    background-position:cover;
+    margin: 0px;
+    padding: 0px;
     height: 100vh;
 }
 
@@ -59,14 +62,16 @@ body{
 
     
 
-}
+} 
+
 .dayDate {
     background: rgba(0, 0, 0, 0.1);
 
     
 }
+
 #country{
-    font-size: 15px;
+    font-size: 19px;
 }
 .WeatherType{
     font-size: 20px;
@@ -78,4 +83,85 @@ body{
 
 #Todays-icon{
     width: 35%;
+}
+.NextDays{
+    /* background-color: #323544; */
+    background-color:#262936;
+    margin: 0;
+    padding: 0;
+    color: #bfc1c8;
+    font-weight: bold;
+}
+.nextdaydegree{
+    font-size: 35px;
+}
+.next-day-header{
+    background: rgba(0, 0, 0, 0.1);
+}
+.degreeLat{
+    font-size: 19px;
+}
+.NextDayconditiontext{
+    font-size: 18px;
+    color: #0d6efd;
+}
+#Nextdays{
+    background-color: #323544;
+    margin: 0;
+    padding: 0;
+    color: #bfc1c8;
+}
+
+
+.fottercontainer{
+    background-color: #262936;
+    color: #bfc1c8;
+    padding: 25px 10px;
+}
+
+/* 
+.form-control{
+    background-color: #323544;
+    border:  solid transparent;
+    border-radius: 30px;
+    padding: 10px 10px;
+} */
+.Subscribe input[type="email"] {
+    width: 100%;
+    background-color: #1e202b;
+    padding: 20px 20px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    position: relative;
+}
+
+.subscribebtn{
+    padding: 12px 40px;
+    border-radius: 30px;
+    position:absolute;
+    top: 1px;
+    right: 0px;
+    transform: translateY(10%);
+
+
+}
+.copyright{
+    font-size: 12px;
+}
+
+.Social-Icons i{
+
+    border-radius: 50%;
+    background: #1e202b;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: #009ad8;
+    transition: all 0.3s ease;
+}
+
+.Social-Icons i:hover{
+    background: #009ad8;
+    color: white;
 }
