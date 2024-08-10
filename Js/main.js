@@ -26,11 +26,7 @@ async function GetData(city){
 let Data = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=79c33f56783b4fa79a9180141240608&q=${city}&days=3&aqi=no&alerts=no`);
 let Data2=await Data.json();
 let DataFetched =[];
-let Forcast=[];
 DataFetched=Data2;
-Forcast=Data2.forecast.forecastday;
-console.log(Forcast)
-console.log(DataFetched);
 return DataFetched;
 }
 
