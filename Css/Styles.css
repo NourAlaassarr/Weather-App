@@ -146,6 +146,23 @@ body{
 
 
 }
+.searcbtn{
+    padding: 12px 40px;
+    border-radius: 30px;
+    position:absolute;
+    top: 1px;
+    right: 0px;
+    transform: translateY(10%);
+}
+.Searchcontainer input[type="text"] {
+    width: 100%;
+    background-color: #1e202b;
+    padding: 20px 20px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    position: relative;
+}
 .copyright{
     font-size: 12px;
 }
