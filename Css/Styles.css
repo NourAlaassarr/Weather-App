@@ -159,6 +159,7 @@ body{
 input::placeholder {
     color: #bfc1c8 !important;
     font-size: 14px;
+    background-color: #1e202b;
 }
 
 
@@ -171,6 +172,11 @@ input::placeholder {
     border: 1px solid transparent;
     border-radius: 30px;
     position: relative;
+}
+.Searchcontainer input[type="text"]::placeholder {
+    color: #bfc1c8 !important;
+    font-size: 14px;
+    background-color: #1e202b;
 }
 .copyright{
     font-size: 12px;
