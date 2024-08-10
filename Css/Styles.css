@@ -147,13 +147,22 @@ body{
 
 }
 .searcbtn{
-    padding: 12px 40px;
+    padding: 12px 30px;
     border-radius: 30px;
     position:absolute;
+    background-color: #009ad8;
     top: 1px;
     right: 0px;
     transform: translateY(10%);
 }
+/* Change the color of the placeholder text in the input field */
+input::placeholder {
+    color: #bfc1c8 !important;
+    font-size: 14px;
+}
+
+
+
 .Searchcontainer input[type="text"] {
     width: 100%;
     background-color: #1e202b;
