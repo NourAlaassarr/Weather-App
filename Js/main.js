@@ -1,5 +1,5 @@
 
-
+document.addEventListener("DOMContentLoaded", function () {
 let country =document.getElementById("country");
 let day =document.getElementById("day");
 let number =document.getElementById("number");
@@ -70,3 +70,4 @@ async function  WeatherApi(city = "cairo"){
 
 }
 WeatherApi();
+});
